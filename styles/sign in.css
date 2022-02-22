@@ -156,8 +156,20 @@ input:focus {
   padding-bottom: 10px;
   font-size: 11px;
 }
+
 .copyR-terms {
   text-align: center;
   font-size: 11px;
   color: rgb(56, 56, 56);
+}
+.errInputEmail,
+.errInputPass {
+  color: #c40000;
+  font-size: 12px;
+}
+.errInputEmail {
+  display: none;
+}
+.errInputPass {
+  display: none;
 }

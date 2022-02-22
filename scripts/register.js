@@ -41,12 +41,18 @@ function registerBtn() {
         }
     } else if (Password.length >= 6 && ReEnterPass.length >= 6) {
         if (Password === ReEnterPass) {
-            let pushArr = [];
             document.querySelector(".errHide").style.display = "none";
-            pushArr.push(UserName, Email, Password, ReEnterPass);
-            dataArr.push(pushArr);
+
+            let usersDataObj = {
+                UserName: UserName,
+                Email: Email,
+                Password: Password,
+            }
+            dataArr.push(usersDataObj);
             console.log(dataArr);
             localStorage.setItem("UsersData", JSON.stringify(dataArr));
+            alert("Registration Succesfully!!");
+
         }
         else {
             appendErrDiv.innerHTML = "";

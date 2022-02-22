@@ -26,6 +26,9 @@
                 <div class="input-email">
                     <label for="Email" class="label-style">Email</label>
                     <input type="text" id="Email" />
+                    <div class="errInputEmail">
+                        <span class="errEmail">! Enter your email </span>
+                    </div>
                 </div>
                 <div class="input-pass">
                     <div class="labfog">
@@ -33,6 +36,9 @@
                         <span class="forgotpass linkfontstyle">Forgot your password?</span>
                     </div>
                     <input type="password" id="Password" />
+                    <div class="errInputPass">
+                        <span class="errPass">! Enter your password </span>
+                    </div>
                 </div>
                 <button onclick="signInBtn()" id="signBtn">Sign In</button>
 
@@ -61,12 +67,55 @@
             </div>
         </div>
         <hr class="line">
-        <div class="contactUs linkfontstyle">Contact Us</div>
+        <div class="contactUs"><span class="linkfontstyle">Contact Us</span></div>
         <div class="copyR-terms">&copy; 1999-2020 BOP LLC. All Rights Reserved. <span class="linkfontstyle">Privacy
-                Notice</span><span class="linkfontstyle"> Conditions of Use</span></div>
+                Notice</span> <span class="linkfontstyle">Conditions of Use</span></div>
     </div>
 
 </body>
 
 </html>
 <script src="scripts/sign in.js"></script>
+<script>
+
+
+    let usersData = JSON.parse(localStorage.getItem("UsersData")) || [];
+
+    function signInBtn() {
+
+        let Email = document.getElementById("Email").value;
+        let Password = document.getElementById("Password").value;
+
+        let errInputEmail = document.querySelector(".errInputEmail");
+        let errInputPass = document.querySelector(".errInputPass");
+
+        if (Email == "" && Password == "") {
+            errInputEmail.style.display = "inline-block"
+            errInputPass.style.display = "inline-block"
+        }
+        else if (Email == "") {
+            errInputEmail.style.display = "inline-block"
+            errInputPass.style.display = "none"
+
+        }
+        else if (Password == "") {
+            errInputEmail.style.display = "none";
+            errInputPass.style.display = "inline-block"
+        }
+        else {
+            errInputEmail.style.display = "none";
+            errInputPass.style.display = "none";
+
+            for (var i = 0; i < usersData.length; i++) {
+                if (usersData[i].Email === Email && usersData[i].Password === Password) {
+                    alert("login successful");
+                    window.location.href = "index.html";
+                    break;
+                }
+            }
+
+        }
+
+    }
+
+</script>
