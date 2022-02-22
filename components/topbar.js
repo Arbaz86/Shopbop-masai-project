@@ -25,7 +25,7 @@ function topbar() {
        </div>
     </div>
     <div class="account-info-container">
-       <label for="SignReg" class="cursor-pointer">Sign In / Register</label>
+       <label for="SignReg" class="cursor-pointer"><span onclick="goToSignInPage()">Sign In</span> / <span onclick="goToRegisterPage()">Register</span></label>
        <select id="SignReg" class="border-hide"></select>
        <i class="fa fa-heart" class="favlist" style="font-size:22px; color:rgb(250, 169, 103)"></i>
        <div class="cart-icon-and-count">

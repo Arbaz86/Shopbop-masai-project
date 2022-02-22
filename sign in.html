@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/sign in.css">
+    <title>Shopdop Sign In</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="signIn-container">
+        <div class="head-logo">
+            <img src="https://images-na.ssl-images-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/AUI_desktop_SB_rebrand_1-0.png._CB485948808_.png"
+                alt="" id="logo-img">
+        </div>
+        <div class="sign-form-section">
+            <div class="sign-in-form">
+                <h1 id="hSignName">Sign In</h1>
+                <div class="input-email">
+                    <label for="Email" class="label-style">Email</label>
+                    <input type="text" id="Email" />
+                </div>
+                <div class="input-pass">
+                    <div class="labfog">
+                        <label for="Password" class="label-style">Password</label>
+                        <span class="forgotpass">Forgot your password?</span>
+                    </div>
+                    <input type="password" id="Password" />
+                </div>
+                <button onclick="signInBtn()" id="signBtn">Sign In</button>
+
+                <div class="keepSignIn">
+                    <input type="checkbox" id="keepSignInBox" />
+                    <label for="keepSignInBox">Keep me signed in.</label>
+                    
+                    <label for="Details" id="details-link">Details</label>
+                    <select id="Details"></select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="scripts/sign in.js"></script>
