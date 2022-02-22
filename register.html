@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/registre.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Shopdop Registration</title>
 </head>
@@ -18,6 +18,23 @@
             <img src="https://images-na.ssl-images-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/AUI_desktop_SB_rebrand_1-0.png._CB485948808_.png"
                 alt="" id="logo-img">
         </div>
+
+        <!-- this part for empty input box using js starting here -->
+
+        <div class="problemBox errHide">
+            <div class="err-icon">
+                <i class="material-icons" style="font-size:36px; color: #e63232;">warning</i>
+            </div>
+            <div class="problem-text">
+                <h3 class="err-text">There was a problem</h3>
+                <ul class="appendErr">
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- ending here -->
+
         <div class="register-form-section">
             <div class="register-in-form">
                 <h1 id="hRegisterName">Create account</h1>
@@ -41,7 +58,7 @@
                     <div class="re-input-pass">
                         <br>
                         <label for="rePass" class="label-style">Re-enter password</label>
-                        <input type="text" id="rePass" />
+                        <input type="password" id="rePass" />
                     </div>
                     <button onclick="registerBtn()" id="regBtn">Create Account</button>
 
@@ -80,3 +97,7 @@
 
 </html>
 <script src="scripts/register.js"></script>
+<script>
+
+
+</script>

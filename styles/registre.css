@@ -174,3 +174,30 @@ input:focus {
   flex-direction: column-reverse;
   border-top: 1px solid rgb(214, 214, 214);
 }
+
+/* js error part started here */
+
+.problemBox {
+  border: 1px solid red;
+  width: 350px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50px 220px
+}
+.problem-text{
+  margin-top: -8px;
+}
+.err-text{
+  font-size: 17px;
+  font-weight: 200;
+  color: #C40000;
+}
+.appendErr{
+  margin-left: -20px;
+  margin-top: -8px;
+}
+.errHide{
+  display: none;
+}
