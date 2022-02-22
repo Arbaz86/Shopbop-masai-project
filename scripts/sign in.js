@@ -5,5 +5,5 @@ nameImg.addEventListener("click", () => {
 
 // goto Regitration page Btn
 function register() {
-
+    window.location.href = "register.html"
 }
