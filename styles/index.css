@@ -128,6 +128,62 @@ body {
 .Clot {
   padding-left: 5px;
 }
+
+/* main starting bg image begin here */
+.startimg {
+  border: 1px solid;
+  height: 640px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fceed9;
+}
+#startheadImg {
+  height: 100%;
+  border: 1px solid;
+  width: 75.6vw;
+}
+.after-start-Img-Div {
+  border: 1px solid;
+  height: 653px;
+  background-color: #fceed9;
+}
+.ul-after-start-img {
+  list-style-type: none;
+  display: flex;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 26px 57.5px 80px;
+  justify-content: center;
+  column-gap: 5px;
+  height: 607px;
+  border: 1px solid;
+  text-align: center;
+}
+#afterimgid1,
+#afterimg2,
+#afterimg3 {
+  height: 493px;
+  cursor: pointer;
+  border: 1px solid;
+}
+.blackSameDesign {
+  cursor: pointer;
+}
+.textSame {
+  text-align: center;
+  margin: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px 2px 3px;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+}
+.textSame:hover {
+  border-bottom: 2px solid;
+}
+/* end here */
+
+/* slide window part begin here */
 .items-container {
   border: 1px solid;
   height: 640px;
@@ -171,20 +227,23 @@ body {
   font-weight: 900;
 }
 .shopAll {
-  height: 28px;
-  border: 1px solid;
+  height: 20px;
   font-size: 15px;
-  text-decoration: underline;
   padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .linkfontstyle {
   color: #ee4a1b;
   cursor: pointer;
-  margin-bottom: 0;
+  border: 0px;
+  border-bottom: 1px solid #ee4a1b;
 }
 .linkfontstyle:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #ee4a1b;
 }
+/* end here */
+
 /* slide bar part begin here */
 
 .itemsSlidebar {
@@ -265,27 +324,5 @@ body {
   height: 100%;
   border: 1px solid;
   width: 78vw;
-}
-/* end here */
-
-
-/* main starting bg image begin here */
-.startimg {
-  border: 1px solid;
-  height: 640px;
-  text-align: center;
-  cursor: pointer;
-  background-color: #fceed9;
-}
-#startheadImg {
-  height: 100%;
-  border: 1px solid;
-  width: 75.6vw;
-}
-.after-start-Img-Div{
-  border: 1px solid;
-  height: 653px;
-  background-color: #fceed9;
-
 }
 /* end here */

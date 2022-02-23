@@ -23,7 +23,7 @@ function registerBtn() {
         appendErrDiv.innerHTML = "";
         if (UserName == "") {
             let li1 = document.createElement("li");
-            li1.innerHTML = "Enter your name"; 
+            li1.innerHTML = "Enter your name";
             appendErrDiv.append(li1);
             document.querySelector(".errHide").style.display = "grid";
         }
