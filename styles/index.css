@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
 }
 /* here main top bar started */
 .topbar-container {
@@ -60,4 +61,146 @@ body {
 }
 .cart-count {
   margin-left: -12px;
+}
+
+/* Creating the top navbar began here  */
+.topNav-contaienr {
+  width: 99vw;
+  height: 132px;
+  border: 1px solid;
+  margin: auto;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.logo-nav-link {
+  text-align: center;
+  width: 61vw;
+  height: 88px;
+  border: 1px solid;
+  margin: 0px 19%;
+}
+#link-logo {
+  margin: 24px 41% 25px;
+  height: 45px;
+  width: 180px;
+}
+.nav-bar-section {
+  text-align: center;
+  width: 61vw;
+  height: 44px;
+  border: 1px solid;
+  margin: 0px 19%;
+}
+.ul-navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.samePrrodList {
+  border: 0px;
+  padding: 8px 1px 5px;
+  width: 70px;
+  height: 15px;
+  cursor: pointer;
+}
+.samePrrodList:hover {
+  font-weight: 800;
+  border-bottom: 2px solid rgb(250, 116, 67);
+  font-size: 11px;
+}
+#search-icon {
+  border: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.Wnew {
+  width: 90px;
+}
+.Ofav {
+  width: 110px;
+  padding-right: 5px;
+}
+.Acce {
+  width: 90px;
+}
+.Clot {
+  padding-left: 5px;
+}
+.headingImg {
+  border: 1px solid;
+  height: 640px;
+  text-align: center;
+  cursor: pointer;
+}
+#bgimg {
+  height: 100%;
+  border: 1px solid;
+  width: 78vw;
+}
+.items-container {
+  border: 1px solid;
+  height: 640px;
+  text-align: center;
+  cursor: pointer;
+}
+.itemshead {
+  height: 100%;
+  border: 1px solid;
+  width: 78vw;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 30px 12.5vw 60px;
+}
+.itemsText {
+  height: 102px;
+  padding: 30px 0px 14px;
+  border: 1px solid;
+}
+.shopAlllink {
+  display: flex;
+  justify-content: space-between;
+}
+.title1 {
+  padding: 0px 0px 10px;
+  border: 1px solid;
+  display: block;
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.title2 {
+  margin: 0;
+  padding: 0px 0px 5px;
+  border: 1px solid;
+  display: block;
+  height: 45px;
+  font-weight: 900;
+}
+.shopAll {
+  height: 28px;
+  border: 1px solid;
+  font-size: 15px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+.linkfontstyle {
+  color: #ee4a1b;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.linkfontstyle:hover {
+  text-decoration: underline;
+}
+/* slide bar part begin here */
+
+.itemsSlidebar {
+  border: 1px solid;
+  height: 440px;
+  position: relative;
+  overflow: hidden;
 }

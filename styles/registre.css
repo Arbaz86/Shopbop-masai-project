@@ -184,20 +184,20 @@ input:focus {
   background-color: white;
   padding: 10px;
   display: grid;
-  grid-template-columns: 50px 220px
+  grid-template-columns: 50px 220px;
 }
-.problem-text{
+.problem-text {
   margin-top: -8px;
 }
-.err-text{
+.err-text {
   font-size: 17px;
   font-weight: 200;
-  color: #C40000;
+  color: #c40000;
 }
-.appendErr{
+.appendErr {
   margin-left: -20px;
   margin-top: -8px;
 }
-.errHide{
+.errHide {
   display: none;
 }
