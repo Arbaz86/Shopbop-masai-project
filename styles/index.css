@@ -128,17 +128,6 @@ body {
 .Clot {
   padding-left: 5px;
 }
-.headingImg {
-  border: 1px solid;
-  height: 640px;
-  text-align: center;
-  cursor: pointer;
-}
-#bgimg {
-  height: 100%;
-  border: 1px solid;
-  width: 78vw;
-}
 .items-container {
   border: 1px solid;
   height: 640px;
@@ -204,3 +193,99 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+/* end here */
+
+/* visualNav part begin here */
+.visualNav {
+  height: 638px;
+  /* border: 1px solid; */
+  background-color: #fff6fb;
+  cursor: pointer;
+}
+.visualNavText {
+  text-align: center;
+}
+.visualheading1 {
+  font-size: 15px;
+  padding: 60px 0px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+.visualheading2 {
+  font-size: 32px;
+  padding: 6px 40px 0px;
+  font-weight: 900;
+  /* border: 1px solid; */
+  margin: 0px;
+}
+.visualImages {
+  height: 513px;
+  /* border: 1px solid; */
+  padding: 26px 57.5px 80px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+.visImgText {
+  width: 100%;
+  height: 38vh;
+  /* border: 1px solid; */
+}
+.desVidiv {
+  text-align: center;
+}
+
+.designtxt {
+  border: 0px;
+  text-align: center;
+  padding-bottom: 2px;
+  display: inline-block;
+  font-weight: 700;
+  color: #ee4a1b;
+  border-bottom: 1px solid #ee4a1b;
+  cursor: pointer;
+}
+.designtxt:hover {
+  border-bottom: 2px solid #ee4a1b;
+}
+/* end here */
+
+/* background image part begin here */
+.headingImg {
+  border: 1px solid;
+  height: 640px;
+  text-align: center;
+  cursor: pointer;
+}
+#bgimg {
+  height: 100%;
+  border: 1px solid;
+  width: 78vw;
+}
+/* end here */
+
+
+/* main starting bg image begin here */
+.startimg {
+  border: 1px solid;
+  height: 640px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fceed9;
+}
+#startheadImg {
+  height: 100%;
+  border: 1px solid;
+  width: 75.6vw;
+}
+.after-start-Img-Div{
+  border: 1px solid;
+  height: 653px;
+  background-color: #fceed9;
+
+}
+/* end here */
