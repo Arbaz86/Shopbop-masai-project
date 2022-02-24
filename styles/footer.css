@@ -40,10 +40,12 @@
   .copyRigthTC{
     text-decoration: underline;
     font-weight: 700;
+    cursor: pointer;
   }
   .lastFootertxt{
     margin-top: 10px;
     margin-bottom: 0px;
+    cursor: pointer;
   }
   /* end here */
   
