@@ -17,6 +17,7 @@
   height: 45px;
   width: 180px;
   cursor: pointer;
+  transition: all 300ms ease-in-out;
 }
 .nav-bar-section {
   text-align: center;

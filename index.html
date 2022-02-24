@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="styles/footer.css" />
   <link rel="stylesheet" href="styles/topbar.css" />
   <link rel="stylesheet" href="styles/navbar.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Shopbop - Top Designer Apparel, Shoes, Accessories & More</title>
 </head>
@@ -72,7 +71,7 @@
           <h3 class="title1">SEE THE LATEST</h3>
           <div class="shopAlllink">
             <h1 class="title2">What's New</h1>
-            <h3 class="shopAll linkfontstyle">Shop All</h3>
+            <h3 class="shopAll linkfontstyle" onclick="gotoProdPage()">Shop All</h3>
           </div>
         </div>
         <div class="itemsSlidebar">
@@ -191,7 +190,7 @@
           <h3 class="title1-2">FAVORITE FINDS</h3>
           <div class="shopAlllink2">
             <h1 class="title2-2">Most-Hearted Styles</h1>
-            <h3 class="shopAll2 linkfontstyle2">Shop All</h3>
+            <h3 class="shopAll2 linkfontstyle2" onclick="gotoProdPage()">Shop All</h3>
           </div>
         </div>
         <div class="itemsSlidebar2">
@@ -230,7 +229,7 @@
         <h3 class="title1-3">LOOK WHAT'S HERE</h3>
         <div class="shopAlllink3">
           <h1 class="title2-3">Back-In-Stock Styles</h1>
-          <h3 class="shopAll3 linkfontstyle3">Shop All</h3>
+          <h3 class="shopAll3 linkfontstyle3" onclick="gotoProdPage()">Shop All</h3>
         </div>
       </div>
       <div class="itemsSlidebar3">
@@ -285,5 +284,8 @@
 
 <script>
 
+function gotoProdPage(){
+  window.location.href = "product.html";
+}
 
 </script>

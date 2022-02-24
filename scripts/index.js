@@ -4,9 +4,13 @@ function goToSignInPage() {
 function goToRegisterPage() {
   window.location.href = "register.html";
 };
-// document.getElementById("link-logo").addEventListener("click", () => {
-//   window.location.href = "index.html";
-// });
+function gotoCartPage() {
+  window.location.href = "cart.html";
+}
+function navImgLink() {
+  window.location.href = "index.html";
+}
+
 
 // ----------------------- this for first slide itmes images part beging here ----------------------------------------
 // array objec data creating begin here
@@ -132,7 +136,7 @@ appendData(itemsData)
 
 function appendData(Data) {
   Data.forEach(element => {
-    console.log('element:', element)
+    // console.log('element:', element)
 
     let mainDiv1 = document.querySelector(".mainslide-con-div1");
 
@@ -147,6 +151,10 @@ function appendData(Data) {
 
       let div1 = document.createElement("div");
       div1.className = "appImgdiv1";
+      div1.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg";
@@ -169,13 +177,16 @@ function appendData(Data) {
       mainDiv1.append(div1);
 
       mainSlideDiv.append(mainDiv1);
-      console.log(count);
 
     }
     if (count > 5 && count <= 10) {
 
       let div2 = document.createElement("div");
       div2.className = "appImgdiv2";
+      div2.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg";
@@ -198,13 +209,16 @@ function appendData(Data) {
       mainDiv2.append(div2);
 
       mainSlideDiv.append(mainDiv2);
-      console.log(count);
 
     }
     else if (count > 10) {
 
       let div3 = document.createElement("div");
       div3.className = "appImgdiv3";
+      div3.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg";
@@ -227,7 +241,6 @@ function appendData(Data) {
       mainDiv3.append(div3);
 
       mainSlideDiv.append(mainDiv3);
-      console.log(count);
     }
 
   });
@@ -266,11 +279,9 @@ function nextProd() {
     nextProdBtn.style.backgroundColor = "#ee4a1b";
     prevProdBtn.style.backgroundColor = "#ee4a1b";
   }
-  console.log(numCount)
 }
 
 function prevProd() {
-  console.log(numCount)
   if (numCount === 2) {
     mainDiv1Hide.style.display = "flex";
     mainDiv2Hide.style.display = "none";
@@ -403,7 +414,7 @@ appendData2(itemsData2)
 
 function appendData2(Data) {
   Data.forEach(element => {
-    console.log('element:', element)
+    // console.log('element:', element)
 
     let mainDiv1_2 = document.querySelector(".mainslide-con-div1-2");
 
@@ -418,6 +429,10 @@ function appendData2(Data) {
 
       let div1 = document.createElement("div");
       div1.className = "appImgdiv1-2";
+      div1.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg2";
@@ -440,13 +455,16 @@ function appendData2(Data) {
       mainDiv1_2.append(div1);
 
       mainSlideDiv2.append(mainDiv1_2);
-      console.log(count2);
 
     }
     if (count2 > 5 && count2 <= 10) {
 
       let div2 = document.createElement("div");
       div2.className = "appImgdiv2-2";
+      div2.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg2";
@@ -469,13 +487,16 @@ function appendData2(Data) {
       mainDiv2_2.append(div2);
 
       mainSlideDiv2.append(mainDiv2_2);
-      console.log(count2);
 
     }
     else if (count2 > 10) {
 
       let div3 = document.createElement("div");
       div3.className = "appImgdiv3-2";
+      div3.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg2";
@@ -498,7 +519,6 @@ function appendData2(Data) {
       mainDiv3_2.append(div3);
 
       mainSlideDiv2.append(mainDiv3_2);
-      console.log(count2);
     }
 
   });
@@ -536,11 +556,9 @@ function nextProd2() {
     nextProdBtn2.style.backgroundColor = "#ee4a1b";
     prevProdBtn2.style.backgroundColor = "#ee4a1b";
   }
-  console.log(numCount2)
 }
 
 function prevProd2() {
-  console.log(numCount2)
   if (numCount2 === 2) {
     mainDiv1Hide2.style.display = "flex";
     mainDiv2Hide2.style.display = "none";
@@ -667,7 +685,7 @@ appendData3(itemsData3)
 
 function appendData3(Data) {
   Data.forEach(element => {
-    console.log('element:', element)
+    // console.log('element:', element)
 
     let mainDiv1_3 = document.querySelector(".mainslide-con-div1-3");
 
@@ -682,6 +700,10 @@ function appendData3(Data) {
 
       let div1 = document.createElement("div");
       div1.className = "appImgdiv1-3";
+      div1.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg3";
@@ -704,13 +726,16 @@ function appendData3(Data) {
       mainDiv1_3.append(div1);
 
       mainSlideDiv3.append(mainDiv1_3);
-      console.log(count3);
 
     }
     if (count3 > 5 && count3 <= 10) {
 
       let div2 = document.createElement("div");
       div2.className = "appImgdiv2-3";
+      div2.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg3";
@@ -733,13 +758,16 @@ function appendData3(Data) {
       mainDiv2_3.append(div2);
 
       mainSlideDiv3.append(mainDiv2_3);
-      console.log(count3);
 
     }
     else if (count3 > 10) {
 
       let div3 = document.createElement("div");
       div3.className = "appImgdiv3-3";
+      div3.addEventListener("click", () => {
+        console.log(element);
+        localStorage.setItem("items-term", JSON.stringify(element));
+      })
 
       let img = document.createElement("img");
       img.className = "prodCountImg3";
@@ -762,7 +790,6 @@ function appendData3(Data) {
       mainDiv3_3.append(div3);
 
       mainSlideDiv3.append(mainDiv3_3);
-      console.log(count3);
     }
 
   });
@@ -800,11 +827,9 @@ function nextProd3() {
     nextProdBtn3.style.backgroundColor = "#ee4a1b";
     prevProdBtn3.style.backgroundColor = "#ee4a1b";
   }
-  console.log(numCount3)
 }
 
 function prevProd3() {
-  console.log(numCount3)
   if (numCount3 === 2) {
     mainDiv1Hide3.style.display = "flex";
     mainDiv2Hide3.style.display = "none";

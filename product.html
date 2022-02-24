@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/product.css">
+    <link rel="stylesheet" href="styles/topbar.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <title>What's New | SHOPBOP</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- top bar writing here -->
+        <div class="topbar-container">
+            <!-- here top bar added from js -->
+        </div>
+        <!-- Creating the top navbar began here -->
+        <div class="topNav-contaienr">
+            <!-- here navbar added from js -->
+        </div>
+        <!-- end here -->
+
+
+
+
+
+
+
+        <!-- footer part begin here -->
+        <footer class="footerContainer">
+            <!-- here footer added from js -->
+        </footer>
+        <!-- end here -->
+    </div>
+</body>
+
+</html>
+<script src="scripts/product.js"></script>
+
+<script type="module">
+
+    // here topbar imported
+    import topbar from "./components/topbar.js";
+    let topbarMainDiv = document.querySelector(".topbar-container");
+    topbarMainDiv.innerHTML = topbar();
+
+    // here navbar imported
+    import navbar from "./components/navbar.js";
+    let navbarDiv = document.querySelector(".topNav-contaienr");
+    navbarDiv.innerHTML = navbar();
+
+    // here footer imported
+    import footer from "./components/footer.js";
+    let footerDiv = document.querySelector(".footerContainer");
+    footerDiv.innerHTML = footer();
+
+
+</script>

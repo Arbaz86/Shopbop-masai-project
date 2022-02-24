@@ -2,7 +2,7 @@ function navbar(){
     return `<div class="logo-nav-link">
     <img
       src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"
-      id="link-logo" alt="There must be a problem with the server image not being
+      id="link-logo" onclick="navImgLink()" alt="There must be a problem with the server image not being
               automatically uploaded" />
   </div>
   <div class="nav-bar-section">

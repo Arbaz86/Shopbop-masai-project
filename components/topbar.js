@@ -29,7 +29,7 @@ function topbar() {
        <select id="SignReg" class="border-hide"></select>
        <i class="fa fa-heart" class="favlist" style="font-size:22px; color:rgb(250, 169, 103)"></i>
        <div class="cart-icon-and-count">
-          <div class="cart-img-div">
+          <div class="cart-img-div" onclick="gotoCartPage()">
              <img src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/_global/images/topnav/bag_1-0.png" width="46%" alt="cart-icon-image">
           </div>
           <div class="cart-count">
