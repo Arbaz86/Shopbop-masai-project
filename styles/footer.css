@@ -1,0 +1,49 @@
+/* footer part begin here */
+.footerUlDiv {
+    margin: 40px auto 0;
+    text-align: center;
+    display: table;
+    font-size: 12px;
+    height: 262px;
+    width: 1024px;
+  }
+  .footerText {
+    list-style: none;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 18%;
+    margin-left: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-header-text {
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+  }
+  .footer-td-text {
+    line-height: 24px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .footer-td-text:hover {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .footerCopyRigth {
+    margin-top: 58px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+  .copyRigthTC{
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .lastFootertxt{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  /* end here */
+  

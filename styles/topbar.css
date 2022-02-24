@@ -1,0 +1,64 @@
+/* here main top bar started */
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+}
+.topbar-container {
+  position: relative;
+  height: 40px;
+  background-color: #faf9f9;
+  font-size: 75%;
+  display: inline-flex;
+  width: 100%;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.utility-container {
+  display: inline-flex;
+}
+
+/* here top left bar started */
+.border-hide {
+  border: 0px;
+  outline: 0px;
+  margin-right: 5px;
+  margin-left: -5px;
+  color: gray;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* here the promo text stared */
+.promo-text {
+  margin: 0 12%;
+}
+.prom-text-here {
+  cursor: pointer;
+}
+
+/* here top left right signreg par started */
+.account-info-container {
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.favlist {
+  cursor: pointer;
+}
+.cart-icon-and-count {
+  background-color: transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 7px;
+}
+.cart-count {
+  margin-left: -12px;
+}
