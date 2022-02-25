@@ -61,7 +61,6 @@ body {
   cursor: pointer;
   color: #000;
   background-color: #fff;
-
 }
 .sizesBtn:hover {
   font-weight: 700;
@@ -108,9 +107,9 @@ body {
   margin-top: 15px;
   padding: 1px 6px;
 }
-.AddToWLBtn:hover{
-    color: rgba(150, 150, 150, 0.801);
-    border: 1px solid rgba(184, 184, 184, 0.863);
+.AddToWLBtn:hover {
+  color: rgba(150, 150, 150, 0.801);
+  border: 1px solid rgba(184, 184, 184, 0.863);
 }
 .shippingtxt {
   font-size: 12px;
@@ -133,23 +132,23 @@ body {
   font-size: 14px;
   line-height: 18px;
 }
-.review-rating{
-    text-align: center;
+.review-rating {
+  text-align: center;
 }
-.reviewRatingtxt{
-    margin-bottom: 0px;
+.reviewRatingtxt {
+  margin-bottom: 0px;
 }
-.smalltxtreview{
-    margin: 6px 0px 18px;
-    font-size: 14px;
+.smalltxtreview {
+  margin: 6px 0px 18px;
+  font-size: 14px;
 }
-.ReviwBtn{
-    padding: 12px 47px;
-    color: white;
-    background: #ee4a1b;
-    border-color: #ee4a1b;
-    border: 0px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-bottom: 100px;
+.ReviwBtn {
+  padding: 12px 47px;
+  color: white;
+  background: #ee4a1b;
+  border-color: #ee4a1b;
+  border: 0px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 100px;
 }

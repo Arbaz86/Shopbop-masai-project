@@ -95,4 +95,15 @@
    let footerDiv = document.querySelector(".footerContainer");
    footerDiv.innerHTML = footer();
 
+   // adding cart items 
+
+   let cartProductCount = document.getElementById("count");
+
+   let getCartData = JSON.parse(localStorage.getItem("cartProductData")) || [];
+   console.log(getCartData.length);
+
+   cartProductCount.innerHTML = getCartData.length;
+
+// end here 
+
 </script>

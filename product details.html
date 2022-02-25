@@ -30,8 +30,7 @@
         <div class="product-data-container">
             <div class="prod-details">
                 <div class="left-prod-img-div">
-                    <img src=""
-                        id="prodImg" alt="" />
+                    <img src="" id="prodImg" alt="" />
                 </div>
                 <div class="right-prod-data-design">
                     <div class="BrandName"></div>
@@ -48,7 +47,7 @@
                         Designed for an A-line cut in a midi length. See
                         <span class="designSpan"> Size Conversions</span>
                     </div>
-                    <button class="AddToBagBtn">Add To Bag</button>
+                    <button class="AddToBagBtn" onclick="DataAddToCart()">Add To Bag</button>
                     <button class="AddToWLBtn">Add To Whish List</button>
                     <div class="shippingtxt">FREE express international delivery and EASY Returns</div>
                 </div>
@@ -96,4 +95,15 @@
     import footer from "./components/footer.js";
     let footerDiv = document.querySelector(".footerContainer");
     footerDiv.innerHTML = footer();
+
+    // adding cart items 
+
+    let cartProductCount = document.getElementById("count");
+
+    let getCartData = JSON.parse(localStorage.getItem("cartProductData")) || [];
+    console.log(getCartData.length);
+
+    cartProductCount.innerHTML = getCartData.length;
+
+// end here 
 </script>

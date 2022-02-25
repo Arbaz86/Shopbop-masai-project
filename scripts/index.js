@@ -11,6 +11,11 @@ function navImgLink() {
   window.location.href = "index.html";
 }
 
+
+
+
+
+
 // ----------------------- this for first slide itmes images part beging here ----------------------------------------
 // array objec data creating begin here
 
@@ -849,3 +854,5 @@ function prevProd3() {
 // end here
 
 // ----------------------- this for second slide itmes images part begin here ----------------------------------------
+
+
