@@ -1,0 +1,155 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  line-height: 26px;
+}
+.product-data-container {
+  width: 1024px;
+  margin: 30px auto 0px auto;
+  font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+}
+.prod-details {
+  display: flex;
+  justify-content: center;
+}
+.left-prod-img-div {
+  height: auto;
+  padding-left: 44px;
+  /* margin: auto; */
+}
+#prodImg {
+  height: 583px;
+  width: 335px;
+}
+.right-prod-data-design {
+  margin-left: 83px;
+  width: 375px;
+}
+.BrandName {
+  font-size: 1.429rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+.prodTitle {
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.prodPrice {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0px 8px;
+}
+.Sizename {
+  font-size: 14px;
+  margin-top: 30px;
+}
+.sizesBtn {
+  border: solid 1px #dad9d6;
+  margin: 3.6px 2.4px;
+  height: 35px;
+  line-height: 35px;
+  min-width: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 5px;
+  transition: background-color 0.2s;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+
+}
+.sizesBtn:hover {
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #000;
+}
+.sizeConversions {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.designSpan {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.AddToBagBtn {
+  width: 375px;
+  height: 48px;
+  color: #fff;
+  background-color: #ee4a1b;
+  border-color: #ee4a1b;
+  margin-top: 22px;
+  font-size: 16px;
+  padding: 1px 6px;
+  font-weight: 600;
+  border: 1px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+.AddToBagBtn:hover {
+  background-color: #ee491b9a;
+  border-color: #ee491b9a;
+}
+.AddToWLBtn {
+  width: 375px;
+  height: 48px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 350ms ease-out, color 250ms ease-out;
+  background-color: transparent;
+  border: 1px solid rgba(194, 194, 194, 0.753);
+  font-weight: 600;
+  margin-top: 15px;
+  padding: 1px 6px;
+}
+.AddToWLBtn:hover{
+    color: rgba(150, 150, 150, 0.801);
+    border: 1px solid rgba(184, 184, 184, 0.863);
+}
+.shippingtxt {
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.aboutDesigner {
+  margin: 85px 100px 81px 100px;
+  text-align: center;
+}
+.designerheadingtxt {
+  font-size: 16px;
+  margin: 0px 0px 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.Prod-description {
+  font-size: 14px;
+  line-height: 18px;
+}
+.review-rating{
+    text-align: center;
+}
+.reviewRatingtxt{
+    margin-bottom: 0px;
+}
+.smalltxtreview{
+    margin: 6px 0px 18px;
+    font-size: 14px;
+}
+.ReviwBtn{
+    padding: 12px 47px;
+    color: white;
+    background: #ee4a1b;
+    border-color: #ee4a1b;
+    border: 0px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 100px;
+}

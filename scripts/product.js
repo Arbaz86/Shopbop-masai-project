@@ -175,6 +175,8 @@ function appendData(productsData20) {
         li.addEventListener("click", () => {
             console.log(element);
             localStorage.setItem("items-term", JSON.stringify(element));
+            window.location.href = "product details.html";
+
         });
 
         let image = document.createElement("img")
@@ -228,6 +230,8 @@ function show20Data() {
             li.addEventListener("click", () => {
                 console.log(element);
                 localStorage.setItem("items-term", JSON.stringify(element));
+                window.location.href = "product details.html";
+
             });
 
             let image = document.createElement("img")
@@ -571,6 +575,8 @@ function show45Data() {
             li.addEventListener("click", () => {
                 console.log(element);
                 localStorage.setItem("items-term", JSON.stringify(element));
+                window.location.href = "product details.html";
+
             });
 
             let image = document.createElement("img")

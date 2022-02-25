@@ -16,7 +16,7 @@ function footer() {
        <li class="footer-header-text">PERSONALIZE</li>
        <li class="footer-td-text">Account</li>
        <li class="footer-td-text">My Loyalty</li>
-       <li class="footer-td-text">My Hearts</li>
+       <li class="footer-td-text">My <sup><i class="fa fa-heart" style="color:rgb(250, 169, 103); font-size:12px"></sup></i>s</li>
        <li class="footer-td-text">My Wish List</li>
        <li class="footer-td-text">My Designers</li>
        <li class="footer-td-text">My Reviews</li>

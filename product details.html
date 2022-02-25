@@ -2,20 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/product details.css">
-    <link rel="stylesheet" href="styles/topbar.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/product details.css" />
+    <link rel="stylesheet" href="styles/topbar.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <title>Loeffler Randall Thong Wrap Sandals | SHOPBOP</title>
+    <title></title>
 </head>
 
 <body>
-
     <div class="container">
         <!-- top bar writing here -->
         <div class="topbar-container">
@@ -27,11 +26,49 @@
         </div>
         <!-- end here -->
 
+        <!-- main product details part begin here  -->
+        <div class="product-data-container">
+            <div class="prod-details">
+                <div class="left-prod-img-div">
+                    <img src=""
+                        id="prodImg" alt="" />
+                </div>
+                <div class="right-prod-data-design">
+                    <div class="BrandName"></div>
+                    <div class="prodTitle"></div>
+                    <div class="prodPrice"></div>
+                    <div class="Sizename">Sizes</div>
+                    <div class="sizesBtnsDiv">
+                        <button onclick="colorChangeBtn1()" class="sizesBtn sizeClickBtn1">XL</button>
+                        <button onclick="colorChangeBtn2()" class="sizesBtn sizeClickBtn2">S</button>
+                        <button onclick="colorChangeBtn3()" class="sizesBtn sizeClickBtn3">M</button>
+                        <button onclick="colorChangeBtn4()" class="sizesBtn sizeClickBtn4">L</button>
+                    </div>
+                    <div class="sizeConversions">
+                        Designed for an A-line cut in a midi length. See
+                        <span class="designSpan"> Size Conversions</span>
+                    </div>
+                    <button class="AddToBagBtn">Add To Bag</button>
+                    <button class="AddToWLBtn">Add To Whish List</button>
+                    <div class="shippingtxt">FREE express international delivery and EASY Returns</div>
+                </div>
+            </div>
+            <div class="aboutDesigner">
+                <div class="designerheadingtxt">ABOUT THE DESIGNER</div>
+                <div class="Prod-description">Created by Los Angeles-based designer Heidi Cornell McKenna, Young
+                    Fabulous & Broke clothing has gained an international reputation for embodying the spirit of
+                    California style. The brand has a knack for crafting effortless wardrobe staples that exude an easy
+                    boho style. Perhaps best known for its distinctive collection of tie-dyed maxi dresses, Young
+                    Fabulous & Broke is far-reaching in scope, offering everything from slouchy joggers to slinky black
+                    dresses.</div>
+            </div>
+            <div class="review-rating">
+                <h4 class="reviewRatingtxt">REVIEWS & RATINGS</h4>
+                <p class="smalltxtreview">Pay it forward! Be the first to write a review.</p>
+                <button class="ReviwBtn">Review This item</button>
+            </div>
 
-
-
-
-
+        </div>
 
         <!-- footer part begin here -->
         <footer class="footerContainer">
@@ -45,7 +82,6 @@
 <script src="scripts/product details.js"></script>
 
 <script type="module">
-
     // here topbar imported
     import topbar from "./components/topbar.js";
     let topbarMainDiv = document.querySelector(".topbar-container");
@@ -60,6 +96,4 @@
     import footer from "./components/footer.js";
     let footerDiv = document.querySelector(".footerContainer");
     footerDiv.innerHTML = footer();
-
-
 </script>
