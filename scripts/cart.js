@@ -27,7 +27,7 @@ cartData.forEach((element) => {
   let div = document.createElement("div");
   div.className = "mainProdCartimg";
 
-  let cartImg = document.createElement("div");
+  let cartImg = document.createElement("img");
   cartImg.id = "imgcartprod";
   cartImg.src = element.itemImg;
 
