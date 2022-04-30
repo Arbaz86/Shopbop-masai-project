@@ -9,122 +9,185 @@ body {
 }
 .cartMainContainer {
   background-color: #f9f9f9;
+}
+.cardDataLeft {
+  margin-top: 20px;
+}
+.cartpart {
+  padding: 0px 82px;
+  background-color: rgb(249, 249, 249);
+  font-size: 16px;
+  font-family: inherit;
+  max-width: 1050px;
+  column-gap: 5%;
+  padding: 0px 3.73%;
+  line-height: initial;
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: 55% 45%;
+}
+.txtofcartRight {
+  margin-left: 10px;
+}
+.cardDataLeft {
+  margin-top: 20px;
+}
+.cartpart {
+  padding: 0px 82px;
+  background-color: rgb(249, 249, 249);
+  font-size: 16px;
+  font-family: inherit;
+  max-width: 1050px;
+  column-gap: 5%;
+  padding: 0px 3.73%;
+  line-height: initial;
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: 55% 45%;
+}
+.txtofcartRight {
+  margin-left: 10px;
+}
 
+.rightTopData {
+  display: flex;
 }
-.cardDataLeft{
-    margin-top: 20px;
+.rigth-sideTextDiv {
+  display: flex;
 }
-.cartpart{
-    padding: 0px 82px;
-    background-color: rgb(249, 249, 249);
-    font-size: 16px;
-    font-family: inherit;
-    max-width: 1050px;
-    column-gap: 5%;
-    padding: 0px 3.73%;
-    line-height: initial;
-    display: grid;
-    margin: 0px auto;
-    grid-template-columns: 55% 45%;
+.txtheadbig {
+  margin: 12px 1px 0px;
 }
-.txtofcartRight{
-    margin-left: 10px;
+.spanCountdiv {
+  margin: 15px 1px 0px;
+  font-size: 12px;
 }
-
-.rightTopData{
-    display: flex;
+.itemsShowsbagtxt {
+  font-size: 12px;
+  text-align: left;
+  margin: 2px 1px;
 }
-.rigth-sideTextDiv{
-    display: flex;
+.mainProdcartDataDiv {
+  height: 212px;
+  margin-top: 20px;
+  background-color: white;
 }
-.txtheadbig{
-    margin: 12px 1px 0px;
+.mainProdCartimg {
+  display: flex;
+  height: 162px;
+  margin: 8px;
 }
-.spanCountdiv{
-    margin: 15px 1px 0px;
-    font-size: 12px;
+#imgcartprod {
+  width: 92px;
+  cursor: pointer;
+  height: 162px;
 }
-.itemsShowsbagtxt{
-    font-size: 12px;
-    text-align: left;
-    margin: 2px 1px;
-
+.rpodDtailesDiv {
+  width: 100%;
+  padding: 10px;
 }
-.mainProdcartDataDiv{
-    height: 212px;
-    margin-top: 20px;
-    background-color: white;
-
+.brandname {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
 }
-.mainProdCartimg{
-    display: flex;
-    height: 162px;
-    margin: 8px;
+.brandtitle {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(53, 53, 53);
 }
-#imgcartprod{
-    width: 92px;
-    cursor: pointer;
-    height: 162px;
+.brandprice {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 10px;
 }
-.rpodDtailesDiv{
-    width: 100%;
-    padding: 10px;
+.myWhishlistdiv {
+  margin-top: 48px;
+  height: 155px;
+  padding-top: 15px;
+  border: 0px;
+  border-top: 1px solid rgb(182, 182, 182);
 }
-.brandname{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 14px;
-    white-space: nowrap;
+.whishlistbody {
+  padding: 19px 12px;
+  display: flex;
+  background-color: white;
 }
-.brandtitle{
-    font-weight: 500;
-    font-size: 12px;
-    margin-top: 5px;
-    color: rgb(53, 53, 53);
+.mainProdcartDataDiv {
+  height: 212px;
+  margin-top: 20px;
+  background-color: white;
 }
-.brandprice{
-    font-weight: 700;
-    font-size: 12px; 
-    margin-top: 10px;
+.mainProdCartimg {
+  display: flex;
+  height: 162px;
+  margin: 8px;
 }
-.myWhishlistdiv{
-    margin-top: 48px;
-    height: 155px;
-    padding-top: 15px;
-    border: 0px;
-    border-top: 1px solid rgb(182, 182, 182);
+#imgcartprod {
+  width: 92px;
+  cursor: pointer;
+  height: 162px;
 }
-.whishlistbody{
-    padding: 19px 12px;
-    display: flex;
-    background-color: white;
-
+.rpodDtailesDiv {
+  width: 100%;
+  padding: 10px;
 }
-.datatitled{
-    margin: 0px 10px;
+.brandname {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  white-space: nowrap;
 }
-.mWhishLiustjs{
-    margin: 0px;
-    margin-top: 10px;
+.brandtitle {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+  color: rgb(53, 53, 53);
 }
-.secondDtt{
-    font-size: 12px;
-    margin: 0px;
-    margin-top: 5px;
+.brandprice {
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 10px;
 }
-.editline{
-    font-weight: 700;
-    text-decoration: underline;
-    cursor: pointer;
+.myWhishlistdiv {
+  margin-top: 48px;
+  height: 155px;
+  padding-top: 15px;
+  border: 0px;
+  border-top: 1px solid rgb(182, 182, 182);
 }
-.checkOut{
-    height: 50px;
-    width: 80%;
-    margin: auto;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    background-color: #DB3B14;
-    cursor: pointer;
-    border: 0px;
+.whishlistbody {
+  padding: 19px 12px;
+  display: flex;
+  background-color: white;
+}
+.datatitled {
+  margin: 0px 10px;
+}
+.mWhishLiustjs {
+  margin: 0px;
+  margin-top: 10px;
+}
+.secondDtt {
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 5px;
+}
+.editline {
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.checkOut {
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: #db3b14;
+  cursor: pointer;
+  border: 0px;
 }
