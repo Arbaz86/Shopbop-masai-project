@@ -1,4 +1,4 @@
-# YouTube_Clone
+# Shopbop Clone
 
 The YouTube clone offers users a different user interface with search functionality,
 category selections, and many other features, and it's fully responsive to any device..
