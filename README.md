@@ -1,7 +1,7 @@
 # Shopbop Clone
 
-The YouTube clone offers users a different user interface with search functionality,
-category selections, and many other features, and it's fully responsive to any device..
+Shopbop is the global online retail destination for style inspiration and discovery, 
+offering women and men a curated selection of ready-to-wear & accessories...
 
 ### Tech Stack
 
