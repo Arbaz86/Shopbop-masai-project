@@ -1,11 +1,11 @@
 # Shopbop Clone
 
-Shopbop is the global online retail destination for style inspiration and discovery, 
+Shopbop is the global online retail destination for style inspiration and discovery,
 offering women and men a curated selection of ready-to-wear & accessories...
 
 ### Tech Stack
 
-### `HTML` `CSS` `JavaScript` `React` `Material UI` `Rapid API`
+### `HTML` `CSS` `JavaScript` `Restful APIs`
 
 <br/>
 
@@ -27,9 +27,7 @@ offering women and men a curated selection of ready-to-wear & accessories...
 
 ![App Screenshot](./images/signin.png)
 
-
 <br />
-
 
 #### Demo
 
